@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    function contar(){
+        while(i < limite){
+        i++
+        if(i % 2){
+            document.write(i+PAR)
+            document.write(`<br>`)
+        }else{
+            document.write(i+IMPAR)
+            document.write(`<br>`)
+        }
+    }
+    }
+
+    const MSG1 = "Inserta el numero hasta el que quieres contar"
+    const IMPAR = ", el numero es par"
+    const PAR = ", el numero es impar"
+    
+    let limite = prompt(MSG1)
+    let i = 0
+
+   contar()
+
+
+</script>
+</body>
+</html>

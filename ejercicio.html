@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const PREGUNTA = "Inserta un numero del 1 al 50"
+    const MENOR = "El numero es Menor"
+    const MAYOR = "El numero es Mayor"
+    const NUMEROBUSCADO = 34
+    let NUMERO = prompt(PREGUNTA)
+
+    if(NUMERO > NUMEROBUSCADO){
+        document.write(MAYOR)
+    }else if(NUMERO < NUMEROBUSCADO){
+        document.write(MENOR)
+    }else{
+        document.write(`Enhorabuena, el ${NUMERO} es el numero buscado!`)
+    }
+
+</script>
+</body>
+</html>
